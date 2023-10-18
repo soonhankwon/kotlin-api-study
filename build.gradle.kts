@@ -34,6 +34,8 @@ dependencies {
     runtimeOnly("com.h2database:h2")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     implementation("org.springframework:spring-webflux:6.0.13")
+    implementation("org.springframework.boot:spring-boot-starter-validation:3.1.4")
+
 
 }
 
